@@ -1,5 +1,5 @@
 import { Button } from "antd";
-import ProductInput from "../ProductInput";
+import ProductInput from "./ProductInput";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import { TResponseProduct } from "../../types";
 

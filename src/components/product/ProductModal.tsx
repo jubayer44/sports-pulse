@@ -3,7 +3,7 @@ import { Button, Modal, Space } from "antd";
 import { createStyles } from "antd-style";
 import { useState } from "react";
 import { FieldValues, FormProvider, useForm } from "react-hook-form";
-import ProductInput from "../ProductInput";
+import ProductInput from "./ProductInput";
 import { useAddToSaleMutation } from "../../redux/features/sales/salesApi";
 import { toast } from "sonner";
 

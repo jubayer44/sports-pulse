@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button, Drawer, Space } from "antd";
 import { FieldValues, FormProvider, useForm } from "react-hook-form";
-import ProductInput from "../ProductInput";
+import ProductInput from "./ProductInput";
 import { useAppDispatch } from "../../redux/hooks";
 import { setSearchValues } from "../../redux/features/product/productSlice";
 import { useGetProductsValuesQuery } from "../../redux/features/product/productApi";

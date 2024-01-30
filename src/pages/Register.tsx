@@ -1,6 +1,6 @@
 import { FieldValues, FormProvider, useForm } from "react-hook-form";
 import { useRegisterMutation } from "../redux/features/auth/authApi";
-import ProductInput from "../components/ProductInput";
+import ProductInput from "../components/product/ProductInput";
 import { Button } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
