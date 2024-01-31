@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Sports Pulse Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Client
 
-Currently, two official plugins are available:
+### Live Client Url: https://sports-pulse.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Server Side Url: https://sports-management-server.vercel.app/
 
-## Expanding the ESLint configuration
+ ### Project Summary
+- ##### Technology Used: `React, TypeScript, Vite, Redux Toolkit, Ant Design, Recharts`
+ ### Functionality
+- ##### User Registration and Authentication.
+- ##### Dashboard with Sales and Product Statistics.
+- ##### Sidebar Options: Home, Sales Management, Products > Add a Product, All Products, Manage Product
+- ##### Sales Overview to view all sales history and delete individual sales items.
+- ##### Sales Overview to view all sales history and delete individual sales items.
+- ##### Add Product Section to add a new product with a form.
+- ##### All Products to view products.
+- ##### Manage Product to view, select, and delete multiple products.
+- ##### Product Details Page to create product variants, edit, and delete products.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+ ### Key Libraries and Tools
+- ##### Redux Toolkit: `State management for predictable state containers`
+- ##### Ant Design: `UI components and styles`
+- ##### Recharts: `For creating interactive charts and graphs`
+- ##### React Router: `Client-side routing for navigation`
+- ##### Sonner: `Notification library for displaying messages to users`
+- ##### JWT Decode: `Library for decoding JSON Web Tokens`
 
-- Configure the top-level `parserOptions` property like this:
+ ### Local Setup Instructions
+- Clone the repository
+  `https://github.com/Porgramming-Hero-web-course/l2b2-full-stack-a5-client-side-jubayer44.git`
+- Navigate to the project directory
+  `cd your-folder`
+- Install dependencies
+  `npm install`
+- Create a`.env` file in the root of the project and set the following environment variables
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```
+VITE_UPLOAD_IMAGE_URL = Your ImageBB upload url
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+##### Running the application
+
+`npm run dev`
+
+## Thank you
